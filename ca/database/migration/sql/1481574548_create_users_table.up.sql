@@ -1,0 +1,2 @@
+ALTER TABLE `test`.`user` 
+ADD COLUMN `status2` VARCHAR(45) NULL DEFAULT NULL AFTER `email`;
